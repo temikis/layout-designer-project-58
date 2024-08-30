@@ -1,7 +1,262 @@
 /** CSS STYLE **/
-
-.hello {
-  display: block;
-
-  color: #fff;
+:root {
+  /** Colors **/
+  --white: #fff;
+  --white50: #d7ccc0;
+  --light: #f5f4f0;
+  --basic: #fe8a02;
+  --basic-dark: #42413c;
+  --dark: #2a2626;
+  --dark50: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
 }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Neucha";
+  src: url("../fonts/Neucha-Regular.ttf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #2A2626;
+}
+
+h1, h2, h3, .fs-24, .fs-34 {
+  font-family: 'Neucha', sans-serif;
+  line-height: 1.2em;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+} 
+
+h3 {
+  font-size: 34px;
+}
+
+.fs-34 {
+  font-size: 34px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+.background {
+  position: relative;
+  overflow: hidden;
+}
+
+.background-2 {
+  position: relative;
+  background-color: var(--blue);
+}
+
+.background-3 {
+  position: relative;
+  z-index: -1;
+  background-color: var(--basic-dark);
+}
+
+.column-break {
+  break-before: column;
+}
+
+.color-basic {
+  color: var(--basic);
+}
+
+.color-white {
+  color: var(--white);
+}
+
+.color-white50 {
+  color: var(--white50);
+}
+
+.color-dark50 {
+  color: var(--dark50);
+}
+
+.bg-light {
+  background-color: var(--light);
+  z-index: -2;
+}
+
+.bg-brown {
+  background-color: var(--brown);
+  z-index: -2;
+}
+
+.background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  opacity: 0.1;
+} 
+
+.container {
+  position: relative;
+  max-width: 1110px;
+  padding: 100px 0;
+  margin: 0 auto;
+} 
+
+.columns-2 {
+  position: relative;
+  column-count: 2;
+  column-gap: 30px;
+} 
+
+.main-logo {
+  position: absolute;
+  height: 525px;
+  top: 55px;
+  right: -270px;
+  z-index: -1;
+}
+
+.btn {
+  padding: 12px 24px;
+  margin-top: 30px;
+
+  text-transform: uppercase;
+
+  font-size: 16px;
+  color: var(--white);
+  font-weight: bold;
+  border: 0;
+  background-color: var(--basic);
+}
+
+.aline-center {
+  text-align: center;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-13 {
+  margin-top: 13px;
+}
+
+.pt-200 {
+  padding-top: 200px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mt-195 {
+  margin-top: 195px;
+}
+
+.video {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  margin-bottom: -200px;
+}
+
+.shawdow {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+#navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 30px;
+}
+
+.card-h {
+  flex: 1 1 calc(33.33% - 20px);
+  box-sizing: border-box;
+}
+
+.card-h > p {
+  font-family: "Neucha", sans-serif;
+  line-height: 1.2em;
+  font-size: 52px;
+  margin: 0;
+}
+
+.card {
+  padding: 24px;
+  background-color: var(--light);
+  flex: 1 1 calc(33.33% - 20px);
+  box-sizing: border-box;
+}
+
+.card > p {
+  margin: 16px 0 0;
+}
+
+.number {
+  font-family: "Neucha";
+  font-size: 64px;
+  padding-bottom: 40px;
+  line-height: 1;
+}
+
+.flex {
+  display: flex;
+  gap: 30px;
+}
+
+.title {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+
+  text-transform: uppercase;
+}
+
+.title-bg-brown {
+  background-color: var(--brown);
+  color: var(--white);
+}
+
+.title-bg-white {
+  background-color: var(--white);
+  color: var(--brown);
+}
+
+.div-img {
+  vertical-align: middle;
+}
+
+
