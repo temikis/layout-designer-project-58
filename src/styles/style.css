@@ -205,6 +205,8 @@ h5 {
 .video {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   margin-bottom: -200px;
+
+  z-index: 1;
 }
 
 .shawdow {
