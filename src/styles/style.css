@@ -5,7 +5,7 @@
   --white50: #d7ccc0;
   --light: #f5f4f0;
   --basic: #fe8a02;
-  --basic-hover: #EA7600;
+  --basic-hover: #ea7600;
   --basic-dark: #42413c;
   --dark: #2a2626;
   --dark50: #908d8b;
@@ -25,18 +25,22 @@
 }
 
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6em;
-  color: #2A2626;
+  color: #2a2626;
 }
 
-h1, h2, h3, .fs-24, .fs-34 {
+h1,
+h2,
+h3,
+.fs-24,
+.fs-34 {
   font-family: Neucha, sans-serif;
   line-height: 1.2em;
   font-weight: 400;
@@ -147,7 +151,7 @@ h5 {
 }
 
 #navigation {
-  margin-top: 100px;
+  margin-top: -100px;
 }
 
 .columns-2 {
@@ -216,10 +220,6 @@ h5 {
   height: 517px;
   margin: 0 auto;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
-}
-
-#navigation {
-  margin-top: -100px;
 }
 
 .shawdow {
