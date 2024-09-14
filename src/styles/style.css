@@ -194,8 +194,8 @@ h5 {
   margin-bottom: 30px;
 }
 
-.mt-25 {
-  margin-top: 25px;
+.mt-30 {
+  margin-top: 30px;
 }
 
 .mt-200 {
@@ -203,10 +203,11 @@ h5 {
 }
 
 .video {
+  display: block;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
-  margin-bottom: -200px;
+  margin: 0 auto -200px;
 
-  z-index: 1;
+  z-index: 2;
 }
 
 .shawdow {
