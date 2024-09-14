@@ -209,9 +209,13 @@ h5 {
 .video {
   display: block;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
-  margin: 0 auto -100px;
+  margin: 0 auto;
 
   z-index: 2;
+}
+
+#navigation {
+  margin-top: -100px;
 }
 
 .shawdow {
