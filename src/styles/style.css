@@ -52,7 +52,7 @@ h1 {
 
 h2 {
   font-size: 60px;
-} 
+}
 
 h3 {
   font-size: 34px;
@@ -137,7 +137,7 @@ h5 {
   background-size: cover;
 
   opacity: 0.1;
-} 
+}
 
 .container {
   position: relative;
@@ -158,7 +158,7 @@ h5 {
   position: relative;
   column-count: 2;
   column-gap: 30px;
-} 
+}
 
 .main-logo {
   position: absolute;
@@ -357,7 +357,7 @@ h5 {
   width: 20px;
   height: 20px;
   margin: auto;
-  background-image: url('../assets/send.svg');
+  background-image: url("../assets/send.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
