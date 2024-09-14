@@ -140,10 +140,14 @@ h5 {
   max-width: 1110px;
   padding: 100px 0;
   margin: 0 auto;
-} 
+}
 
-.container-non-bottom {
-  padding-bottom: 0;
+#preview-image {
+  margin-bottom: -200px;
+}
+
+#navigation {
+  margin-top: 100px;
 }
 
 .columns-2 {
